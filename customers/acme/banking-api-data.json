@@ -1,0 +1,46 @@
+{
+  "_comment": "FICTITIOUS mock data for the workshop banking API. No real customers.",
+  "currency": "COP",
+  "customers": {
+    "1001": {
+      "name": "Valentina Restrepo (ficticia)",
+      "segment": "Personas",
+      "city": "Ciudad Demo",
+      "products": [
+        {"product_id": "AH-1001-01", "type": "Cuenta Ahorro Tradicional", "balance": 3250000, "status": "ACTIVA"},
+        {"product_id": "TC-1001-01", "type": "Tarjeta Credito Andina Clasica", "credit_limit": 4000000, "used": 1180000, "status": "ACTIVA"},
+        {"product_id": "CDT-1001-01", "type": "CDT Digital 180 dias", "balance": 8000000, "rate_ea": 8.6, "maturity_date": "2027-01-15", "status": "VIGENTE"}
+      ],
+      "transactions": [
+        {"date": "2026-10-06", "description": "Compra Supermercado Centro", "amount": -184300, "product_id": "TC-1001-01"},
+        {"date": "2026-10-05", "description": "Transferencia recibida - Nomina", "amount": 4800000, "product_id": "AH-1001-01"},
+        {"date": "2026-10-04", "description": "Pago servicios publicos Servicios Publicos", "amount": -312450, "product_id": "AH-1001-01"},
+        {"date": "2026-10-03", "description": "Cafe de especialidad Norte", "amount": -18500, "product_id": "TC-1001-01"},
+        {"date": "2026-10-01", "description": "Retiro cajero", "amount": -200000, "product_id": "AH-1001-01"}
+      ]
+    },
+    "1002": {
+      "name": "Andres Gomez (ficticio)",
+      "segment": "Emprendedor",
+      "city": "Ciudad Sur",
+      "products": [
+        {"product_id": "AH-1002-01", "type": "Cuenta Ahorro Tradicional", "balance": 12400000, "status": "ACTIVA"},
+        {"product_id": "LI-1002-01", "type": "Libre Inversion Express", "outstanding": 9300000, "monthly_payment": 512000, "rate_ea": 18.0, "status": "AL DIA"}
+      ],
+      "transactions": [
+        {"date": "2026-10-06", "description": "Pago cuota Libre Inversion", "amount": -512000, "product_id": "AH-1002-01"},
+        {"date": "2026-10-05", "description": "Venta tienda online - Pasarela de pagos", "amount": 2150000, "product_id": "AH-1002-01"},
+        {"date": "2026-10-02", "description": "Proveedor insumos", "amount": -1430000, "product_id": "AH-1002-01"}
+      ]
+    }
+  },
+  "cdt_rates_ea": {"90": 8.10, "180": 8.60, "360": 9.20, "540": 9.40},
+  "cdt_withholding_pct": 4.0,
+  "exchange_rates_reference": {
+    "_comment": "Static reference values for the mock API. For live values use the Web Search tool.",
+    "USD": 3950.0,
+    "EUR": 4280.0,
+    "PAB": 3950.0,
+    "GTQ": 512.0
+  }
+}

@@ -1,0 +1,32 @@
+[project]
+name = "agentic-ai-workshop"
+version = "1.0.0"
+description = "Parametrized Agentic AI on AWS workshop (Bedrock, Guardrails, Knowledge Bases, AgentCore Harness/Gateway/Runtime, Strands Agents)"
+authors = [{ name = "Santiago Garcia Arango", email = "san99tiago@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.12,<3.15"
+license = "Apache-2.0"
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+boto3 = ">=1.43.48"
+strands-agents = ">=1.0.0"
+bedrock-agentcore = ">=1.0.0"
+mcp = ">=1.10.0"
+mcp-proxy-for-aws = ">=1.0.0"
+
+[tool.poetry.group.infra.dependencies]
+aws-cdk-lib = ">=2.200.0"
+constructs = ">=10.4.2"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = ">=1.1.1"
+ipykernel = ">=6.29.0"
+jupytext = ">=1.16.0"
+pytest = ">=8.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"

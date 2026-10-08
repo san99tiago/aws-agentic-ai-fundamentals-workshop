@@ -1,0 +1,66 @@
+{
+ "question": "Un cliente tiene 10.000.000 COP y quiere ahorrar 12 meses. Explica en maximo 5 bullets la diferencia entre un CDT y una cuenta de ahorros, con un ejemplo numerico aproximado.",
+ "recorded_at": "2026-10-07",
+ "results": [
+  {
+   "label": "🌙 GPT-5.6 Luna",
+   "model_id": "us.openai.gpt-5.6-luna",
+   "latency_s": 3.73,
+   "output_tokens": 337,
+   "input_tokens": 143,
+   "score": 9,
+   "reason": "Exacta, clara, cinco bullets, ejemplo correcto con advertencia de tasas ilustrativas.",
+   "excerpt": "- **CDT:** Inviertes el dinero por un plazo definido, por ejemplo 12 meses, y normalmente recibes una tasa pactada. Durante ese tiempo, retirar los recursos puede tener restricciones.\n- **Cuenta de ahorros:** Puedes disponer del dinero cuando lo necesites; la tasa suele ser variable y, por lo general, menor que la de un CDT.\n- **Ejemplo ilustrativo — no corresponde a tasas vigentes:** con **$10.000.000**, un CDT al **9% efectivo anual** generaría aproximadamente **$900.000** en 12 meses, antes de impuestos.\n- En una cuenta de ahorros que pagara hipotéticamente **1% efectivo anual**, obtendrías cerca de **$100.000** en el mismo periodo, antes de impuestos.\n- La elección depende de tu necesida"
+  },
+  {
+   "label": "🌍 GPT-5.6 Terra",
+   "model_id": "us.openai.gpt-5.6-terra",
+   "latency_s": 4.2,
+   "output_tokens": 262,
+   "input_tokens": 143,
+   "score": 9,
+   "reason": "Correcta y clara; cinco bullets; ejemplo coherente con saldos finales aproximados.",
+   "excerpt": "- **CDT:** es una inversión a plazo fijo. El cliente deja los **$10.000.000** durante 12 meses y, normalmente, no puede retirarlos antes sin condiciones o costos. A cambio, suele ofrecer una rentabilidad definida desde el inicio.\n\n- **Cuenta de ahorros:** permite usar y retirar el dinero cuando se necesite. Da más liquidez, pero su rentabilidad suele ser variable y, por lo general, menor que la de un CDT.\n\n- **Ejemplo aproximado de CDT:** si ofreciera una tasa de **10% efectivo anual** *(solo ejemplo; la tasa real depende de la oferta vigente)*, al cabo de 12 meses podría recibir cerca de **$11.000.000** antes de retenciones o impuestos aplicables.\n\n- **Ejemplo aproximado de cuenta de ahorro"
+  },
+  {
+   "label": "☀️ GPT-5.6 Sol",
+   "model_id": "us.openai.gpt-5.6-sol",
+   "latency_s": 7.72,
+   "output_tokens": 331,
+   "input_tokens": 143,
+   "score": 9,
+   "reason": "Precisa y concisa; menciona retenciones y costos; cálculo bruto y saldo correctos.",
+   "excerpt": "- **CDT:** inviertes los **$10.000.000** por un plazo fijo de 12 meses; normalmente ofrece una rentabilidad mayor, pero el dinero no suele estar disponible antes del vencimiento.\n- **Cuenta de ahorros:** puedes retirar o transferir el dinero cuando lo necesites, aunque generalmente paga una rentabilidad menor y podría tener costos según el producto.\n- **Ejemplo ilustrativo, no tasa vigente:** si el CDT pagara **10% E.A.**, al año generaría cerca de **$1.000.000 brutos**; saldo aproximado: **$11.000.000**.\n- Si la cuenta pagara **1% E.A.**, generaría cerca de **$100.000 brutos**; saldo aproximado: **$10.100.000**, suponiendo que no haya movimientos ni cobros.\n- La ganancia neta puede cambiar "
+  },
+  {
+   "label": "🍃 Claude Haiku 4.5",
+   "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+   "latency_s": 3.93,
+   "output_tokens": 361,
+   "input_tokens": 180,
+   "score": 3,
+   "reason": "Error grave: 9-12% de $10M no equivale a $400.000-$600.000; afirma tasas actuales.",
+   "excerpt": "# CDT vs Cuenta de Ahorros - Ejemplo con $10.000.000\n\n• **CDT (Certificado de Depósito a Término)**: Dinero \"congelado\" 12 meses a una tasa fija. Con $10M podrías ganar aproximadamente $400.000-$600.000 en intereses (tasas rondan 9-12% anual actualmente), pero NO puedes tocar la plata antes sin penalización.\n\n• **Cuenta de Ahorros**: Dinero disponible siempre. Intereses muy bajos (~0,5-1% anual), así que con $10M ganarías solo $50.000-$100.000 en 12 meses, pero lo sacas cuando quieras sin castigos.\n\n• **La diferencia clave**: El CDT paga mucho más porque \"bloqueas\" tu dinero; la cuenta de ahorros paga menos pero tienes libertad total.\n\n• **Ejemplo numérico**: \n  - CDT: $10.000.000 → $10.500."
+  },
+  {
+   "label": "🎼 Claude Sonnet 5.5",
+   "model_id": "us.anthropic.claude-sonnet-5-5",
+   "latency_s": 8.03,
+   "output_tokens": 1016,
+   "input_tokens": 251,
+   "score": 8,
+   "reason": "Exacta y completa, pero añade texto fuera de bullets y se dirige al asesor.",
+   "excerpt": "Estos son los puntos clave para tu cliente:\n\n- **Qué es cada uno:** el CDT es una inversión a plazo fijo (por ejemplo, 12 meses) en la que el dinero queda \"bloqueado\" y se pacta la tasa desde el inicio. La cuenta de ahorros es un depósito a la vista, con el que se puede retirar o consignar cuando se quiera.\n- **Liquidez:** en la cuenta de ahorros el dinero está disponible siempre. En el CDT, si necesita la plata antes del vencimiento, puede tener penalidades o no poder redimirlo anticipadamente, según las condiciones del título.\n- **Rentabilidad:** normalmente el CDT paga una tasa más alta y fija a cambio de la inmovilidad. La cuenta de ahorros suele pagar menos y su tasa puede variar en el "
+  },
+  {
+   "label": "🎭 Claude Opus 5.5",
+   "model_id": "us.anthropic.claude-opus-5-5",
+   "latency_s": 20.96,
+   "output_tokens": 1040,
+   "input_tokens": 251,
+   "score": 7,
+   "reason": "Exacta, con retención y 4x1000, pero extensa, con subbullets y emojis.",
+   "excerpt": "¡Hola! Te explico la diferencia de forma sencilla 👇\n\n- **Disponibilidad del dinero:** En la **cuenta de ahorros** el cliente puede sacar o meter plata cuando quiera. En el **CDT** el dinero queda \"guardado\" durante el plazo pactado (en este caso, 12 meses) y, por lo general, no se puede retirar antes del vencimiento.\n\n- **Rentabilidad:** El **CDT** suele pagar una tasa más alta porque el banco sabe que contará con ese dinero durante todo el plazo, y esa tasa queda fija desde el inicio. La **cuenta de ahorros** normalmente paga una tasa más baja y puede variar con el tiempo.\n\n- **Ejemplo numérico aproximado:** Las tasas de este ejemplo son **hipotéticas** y solo sirven para ilustrar, no son l"
+  }
+ ]
+}

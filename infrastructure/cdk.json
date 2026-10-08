@@ -1,0 +1,67 @@
+{
+  "app": "poetry run python app.py",
+  "watch": {
+    "include": [
+      "**"
+    ],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "**/__pycache__",
+      "tests"
+    ]
+  },
+  "context": {
+    "tags": {
+      "Project": "agentic-ai-workshop",
+      "Owner": "workshop-facilitator",
+      "Source": "https://github.com/san99tiago/aws-agentic-ai-fundamentals-workshop"
+    },
+    "app_config": {
+      "dev": {
+        "deployment_environment": "dev",
+        "aws_region": "us-east-1",
+        "resource_prefix": "agentic-workshop",
+        "deploy_frontend": "true",
+        "customer_id": "acme",
+        "customer_name": "ACME Corp",
+        "customer_brand": "ACME Bank",
+        "agent_name": "AgentBot",
+        "agent_emoji": "🤖",
+        "primary_color": "#FF9900",
+        "secondary_color": "#232F3E",
+        "accent_color": "#1A9C3E",
+        "workshop_title": "Agentic AI on AWS - Hands-On Workshop",
+        "workshop_date": "",
+        "facilitator_name": "AWS Solutions Architect",
+        "repo_url": "https://github.com/san99tiago/aws-agentic-ai-fundamentals-workshop",
+        "default_model_id": "global.anthropic.claude-sonnet-5",
+        "fast_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+        "log_level": "DEBUG",
+        "top_model_id": "us.anthropic.claude-opus-5"
+      },
+      "prod": {
+        "deployment_environment": "prod",
+        "aws_region": "us-east-1",
+        "resource_prefix": "agentic-workshop",
+        "deploy_frontend": "true",
+        "customer_id": "acme",
+        "customer_name": "ACME Corp",
+        "customer_brand": "ACME Bank",
+        "agent_name": "AgentBot",
+        "agent_emoji": "🤖",
+        "primary_color": "#FF9900",
+        "secondary_color": "#232F3E",
+        "accent_color": "#1A9C3E",
+        "workshop_title": "Agentic AI on AWS - Hands-On Workshop",
+        "workshop_date": "",
+        "facilitator_name": "AWS Solutions Architect",
+        "repo_url": "https://github.com/san99tiago/aws-agentic-ai-fundamentals-workshop",
+        "default_model_id": "global.anthropic.claude-sonnet-5",
+        "fast_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+        "log_level": "INFO",
+        "top_model_id": "us.anthropic.claude-opus-5"
+      }
+    }
+  }
+}
